@@ -1,3 +1,8 @@
+document.getElementById('addMoney-btn').addEventListener('click', function(event){
+    document.getElementById('add-money-form').classList.remove('hidden');
+    document.getElementById('cash-out-form').classList.remove('hidden');
+
+})
 document.getElementById('btn-add-money').addEventListener('click', function(event){
     event.preventDefault();
     const addMoney = document.getElementById('amount-input').value;
